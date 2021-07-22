@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "Open";
+    src: url("./AVGARDD_2.TTF")
+
+  }
+
+.topnav {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+
+.main-text {
+    text-align: center;
+    font-size: 35px;
+    padding-block: 30px;
+    font-family: "Open";
+}
+
+.content-body {
+    background-image: url(./images/Group\ 1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 80%;
+    height: 65vh;
+}
+
+span.name {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    font-family: "Open";
+}
+
+span.role {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    font-family: "Open";
+}
+
+span.testi {
+    color: white;
+    padding-top: 10px;
+}
+
+img.mascot {
+    position: absolute;
+    top: 120px;
+    left: 230px;
+}
+
+.content-test {
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+.testimonial{
+    width: 50%;
+}
+
+.\32 2 {
+    display: flex;
+}
+
+input#inputEmail4 {
+    border-radius: 200px;
+}
+
+button.btn.btn-light {
+    margin-top: 30px;
+    border-radius: 200px;
+    width: 100%;
+}
+
+.form-div {
+    align-items: center;
+    display: flex;
+}
+
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+
+.fa-user {
+    background-image: url(./images/mail-icon.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    margin: 13px;
+}
+
+.fa-instagram{
+    background-image: url(./images/name-icon.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    margin: 13px;
+}
+
+.fa-envelope{
+    background-image: url(./images/phone-icon.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    margin: 13px;
+    margin-left: 255px;
+}
+
+.fa-youtube{
+    background-image: url(./images/phone-icon.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    margin: 13px;
+}
+
+.fa-facebook{
+    background-image: url(./images/role-icon.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    margin: 13px;
+}
+
+.fa-face{
+    background-image: url(./images/company-icon.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    margin: 13px;
+}
+
+.input-field {
+
+    text-align: center;
+    border-radius: 200px;
+    border: 1px solid #ACC7C1;
+    margin: 5px;
+    width: 100%;
+    padding: 10px;
+    text-indent: 40px;
+    text-align: left;
+}
+
+.double {
+    display: flex;
+}
+
+input.input-field.dou {
+    width: 50%;
+}
+
+
+button.button {
+    width: 100%;
+    border-radius: 200px;
+    padding: 7px;
+    border: 1px solid white;
+    margin-top: 10px;
+    box-shadow: 4px -1px 10px #cfcfcf;
+}
+
+.bottom-text {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: Open;
+}
+
+.companies {
+    display: flex;
+    justify-content: center;
+}
+
+.text-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 15px;
+    font-family: Open;
+    padding: 11px;
+    color: grey;
+}
+
+.circle1 {
+    width: 40%;
+    height: 641px;
+    border: 1px solid #EBF6F4;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #EBF6F4;
+    right: 1320px;
+    bottom: -110px;
+}
+
+.circle2 {
+    width: 40%;
+    height: 641px;
+    border: 1px solid #EBF6F4;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #EBF6F4;
+    left: 1320px;
+    top: -310px;
+}
